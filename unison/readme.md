@@ -90,8 +90,8 @@ make package/unison/install
 ```
 
 If all finished correctly, you can found the final package in:
-Turris: `$TURRIS/openwrt/bin/mpc85xx/packages/base/`
-Omnia:  `$TURRIS/openwrt/bin/mvebu/packages/base/`
+* **Turris**: `$TURRIS/openwrt/bin/mpc85xx/packages/base/`
+* **Omnia**:  `$TURRIS/openwrt/bin/mvebu/packages/base/`
 
 e.g.:
 ```shell
