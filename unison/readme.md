@@ -57,10 +57,12 @@ make defconfig
 ```
 
 
-*Compile tools and libraries ocaml a ncurses
+* Compile tools and libraries ocaml a ncurses
 
+```shell
 make toolchain/install
 make package/ncurses/install
+```
 
 **Note**:
 If you have multicore CPU, you can use -j<number> parameter to enable parallel compilation.
