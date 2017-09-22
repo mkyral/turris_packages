@@ -38,7 +38,7 @@ git apply --whitespace=nowarn ../0001-toolchain-add-OCaml-compiler.patch
 git apply --whitespace=nowarn ../0002-package-Add-Unison-File-Synchronizer.patch
 ```
 
-# update config file again
+* update config file again
 
 ```
 make defconfig
