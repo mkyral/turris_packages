@@ -89,7 +89,9 @@ make package/unison/compile
 make package/unison/install
 ```
 
-If all finished correctly, you can found the final package in: `$TURRIS/openwrt/bin/mpc85xx/packages/base/`
+If all finished correctly, you can found the final package in:
+Turris: `$TURRIS/openwrt/bin/mpc85xx/packages/base/`
+Omnia:  `$TURRIS/openwrt/bin/mvebu/packages/base/`
 
 e.g.:
 ```shell
@@ -100,7 +102,7 @@ ls -la $TURRIS/openwrt/bin/mpc85xx/packages/base/unison*.ipk
 ## Step 3 - installation
 * Copy package to Turris and install it using command:
 ```shell
-opkg install /cesta/k/balíčku/unison_2.48.3-1_mpc85xx.ipk
+opkg install /path/to/package/unison_2.48.3-1_mpc85xx.ipk
 ```
 
 * Test unison:
